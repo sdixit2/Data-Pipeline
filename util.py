@@ -12,6 +12,9 @@ def get_mysql_connection(db_host, db_user, db_name, db_pass):
     # except mc.Error as error:
     #     if error.err
     return connection
+def get_pg_connection(db_host, db_name, db_user, db_pass):
+    connection = psycopg2.connect(f"dbname={db_name} user={db_user} host={db_host} password={db_pass}")
+    return connection
 
 def get_connection(db_type, db_host, db_name, db_user, db_pass):
     connection = None

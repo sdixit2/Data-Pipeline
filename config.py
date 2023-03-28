@@ -14,7 +14,7 @@ DB_DETAILS = {
         {
             'DB_TYPE': 'postgres',
             'DB_HOST': 'localhost',
-            'DB_NAME': 'PostgreSQL 15',
+            'DB_NAME': 'postgres',
             'DB_USER': 'postgres',
             'DB_PASS': 'Johncena1234$',
         },
