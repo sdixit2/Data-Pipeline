@@ -5,7 +5,7 @@ DB_DETAILS = {
        'SOURCE_DB': {
         'DB_TYPE': 'mysql',
         'DB_HOST': '127.0.0.1',
-        'DB_NAME': os.environ.get('SOURCE_DB_NAME'),
+        'DB_NAME': 'sakila',
         'DB_USER': 'root',
         'DB_PASS': 'password12345'
        },
